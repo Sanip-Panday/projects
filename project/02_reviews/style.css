@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.container{
+    height: 70vh;
+    width: auto;
+    top: 40px;
+    margin: auto;
+    padding: 10px;
+   
+  
+}
+.title{
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 30px 0px;
+    color:#b3f55e;
+    text-align: center;
+
+}
+
+.review{
+    height:auto;
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+   /*background-color: aqua;*/
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px 10px rgb(85, 80, 80);
+}
+.img-container{
+    
+    width: auto;
+    height:auto;
+   
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+   
+    
+}
+#author, #job{
+    color: rgb(235, 22, 22);
+    font-weight: 500;
+    margin: 10px 0px;
+    line-height: 1rem;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    top:1.2rem ;
+    height: 2rem;
+    margin: 20px 14px;
+    
+}
+.button-container>button{
+    font-size: 1.3rem;
+    
+    color: rgb(3, 3, 3);
+    background: rgb(248, 244, 244); 
+    border: none;
+    border-radius: 50%;
+    width: 2rem;
+}
